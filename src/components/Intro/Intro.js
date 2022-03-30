@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import me from "../../img/linkdin-image.png";
+import me from "../../img/me.png";
 import AnimatiedShap from "../AnimatiedShap/AnimatiedShap";
 
 const Container = styled.div`
