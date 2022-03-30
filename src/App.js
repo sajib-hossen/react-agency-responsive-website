@@ -1,5 +1,7 @@
 import styled, { css } from "styled-components";
+import Contacts from "./components/Contacts/Contacts";
 import Features from "./components/Features/Features";
+import Footer from "./components/Footer/Footer";
 import Intro from "./components/Intro/Intro";
 import Navber from "./components/Navbar/Navber";
 import Pricing from "./components/Pricing/Pricing";
@@ -63,6 +65,10 @@ function App() {
       <Container>
         <Pricing />
         <PriveShap />
+      </Container>
+      <Container>
+        <Contacts />
+        <Footer />
       </Container>
     </>
   );
