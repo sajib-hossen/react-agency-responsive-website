@@ -2,6 +2,7 @@ import styled, { css } from "styled-components";
 import Features from "./components/Features/Features";
 import Intro from "./components/Intro/Intro";
 import Navber from "./components/Navbar/Navber";
+import Pricing from "./components/Pricing/Pricing";
 import Services from "./components/Services/Services";
 
 const Container = styled.div`
@@ -36,6 +37,12 @@ const ServicesShap = styled.div`
   clip-path: polygon(0% 100%, 33% 100%, 32% 0%, 0% 0%);
   background-color: red;
 `;
+const PriveShap = styled.div`
+  ${Shape}
+
+  clip-path: polygon(33% 0%, 100% 0%, 100% 100%, 67% 100%);
+  background-color: pink;
+`;
 
 function App() {
   return (
@@ -52,6 +59,10 @@ function App() {
       <Container>
         <Services />
         <ServicesShap />
+      </Container>
+      <Container>
+        <Pricing />
+        <PriveShap />
       </Container>
     </>
   );
